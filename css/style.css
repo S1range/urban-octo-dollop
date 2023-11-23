@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Henny+Penny&family=Montserrat+Subrayada:wght@700&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Henny+Penny&family=Montserrat+Subrayada:wght@700&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');*/
+
+body{
+	background-color: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', cursive;
+}
+
+.container{
+	max-width: 1900px;
+	margin: 0 auto;
+}
+
+.menu{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #363636;
+	z-index: 999;
+	box-shadow: 0 4px 15px black;	
+}
+
+.logo{
+	color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 80px;	
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.navigation{
+	float: right;
+	margin-right: 100px;
+}
+
+.navigation-item{
+	color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    line-height: 80px;
+    transition: 0.5s;
+}
+
+.navigation-item:hover{
+	color: black;	
+}
+
+.img-foto{
+	margin: 0;
+	display: inline-block;
+	border-radius: 360px;
+	margin-top: 150px;
+}
+
+.zagolovok-nacalo{
+	display: inline-block;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 16px;
+	margin-left: 400px;
+	font-weight: 900;
+	color: white;
+}
+
+.zagolovok-nacalo:hover{
+
+}
+
+.zagolovok-nacalo-div{
+	display: inline-block;
+	position: absolute; 
+    left: 700px;
+    top: 150px;
+}
+
+.p{
+	font-size: 20px;
+	color: white;
+	font-family: 'Henny Penny', cursive;
+}
+
+.redis{
+	display: inline-block;
+	background-color: gray;
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 25px;
+	font-weight: 500;
+	margin-right: 40px;
+}
+
+.pushin{
+	display: inline-block;
+	padding: 10px;
+	margin-left: 50px;
+	font-weight: 900;
+}
+
+.gramoty{
+	margin-top: 100px;
+	width: 100%;
+}
+
+.gramoty img{
+	width: 800px;
+	height: 500px;
+	object-fit: cover; /*изображение без нарушений пропорций*/
+	position: absolute;
+	border-radius: 20px;
+	display: inline-block;
+	margin-top: 50px;
+	margin: 50px;
+}
+
+.zagolovok-gramoty-div{
+	background-color: #494d4e;
+	padding: 10px;
+	margin-top: 700px;
+}
+
+.zagolovok-gramoty{
+	margin-left: 500px;
+	color: white;
+	font-size: 200px;
+	margin-bottom: 25px;
+}
+
+.div-gramoty-desi{
+	margin-left: 0px;
+}
+
+.div-gramoty-1{
+	display: flex;
+	justify-content: space-around; /*Равномерное распределение картинок со flex*/
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+
+.div-gramoty{
+	display: flex;
+	justify-content: space-around; /*Равномерное распределение картинок со flex*/
+	margin-top: 450px;
+	margin-left: 0px;
+	
+}
+
+.NOY{
+	/*margin-top: 800px;*/
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
+}
+
+.zagolovok-NOY-div{
+	margin-top: 800px;
+}
+
+.zagolovok-NOY{
+	/*margin-left: 40%;
+	margin-bottom: 100px;*/
+	margin-left: 500px;
+	color: white;
+	font-size: 150px;
+	margin-bottom: 25px;
+}
+
+.NOY-h1{
+	padding-left: 100px;
+	margin-top: 100px;
+}
+
+.NOY-h2{
+	padding-left: 50px;
+	margin-top: 50px;
+}
+
+.Suksin-h1{
+	margin-top: 100px;
+}
+
+.zagolovok-100{
+	margin-left: 425px;
+	color: white;
+	font-size: 150px;
+	margin-bottom: 25px;
+}
+
+.zagolovok-vebinari{
+	margin-left: 575px;
+	color: white;
+	font-size: 150px;
+	margin-bottom: 25px;
+}
+
+.vebinari-div{
+	margin-left: 100px;
+}
+
+.cnopka-prezetasii-OGE{
+	background-color: purple;
+	width: 560px;
+	height: 310px;
+	margin-left: 663px;
+	margin-top: -1px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.nadpis-na-cnopke{
+	color: white;
+	font-size: 90px;
+}
+
+.contacti-znacki img{
+	width: 75px;
+	height: 75px;
+}
+
+.contacti{
+	width: 400px;
+	height: 100px;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 50px;
+	border: solid 3px;
+	background-color: #363636;
+	color: #FFFDD0;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.div-contacti-1{
+	display: inline-flex; 
+}
+
+
+.div-contacti-znacki{
+	display: inline-flex;
+	margin: 50px;
+	padding: 50px;
+}
